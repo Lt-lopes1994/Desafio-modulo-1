@@ -1,0 +1,249 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+header footer nav a {
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: #33323D;
+  padding-right: 10px;
+}
+
+footer a {
+  color: #FFFFFF;
+  padding-right: 10px;
+}
+
+header {
+  min-height: 32px;
+  margin-bottom: 54px;
+}
+
+footer {
+  background: #33323D;
+  min-height: 80px;
+  align-items: center;
+}
+
+.logo img {
+  padding-right: 55px;
+  padding-left: 100px;
+}
+
+.marcas {
+  padding-left: 700px;
+}
+
+.marcas img {
+  padding-right: 15px;
+}
+
+.contato-btn {
+  display: flex;
+  width: 162px;
+  height: 48px;
+  border: 1px solid #33323D;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323D;
+}
+
+.contato-btn:hover {
+  background: #33323D;
+  color: #FAFAFA;
+}
+
+.contato {
+  margin-bottom: 35px;
+}
+
+.contato h3 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  padding-right: 510px;
+
+  letter-spacing: -0.357143px;
+
+  color: #33323D;
+}
+
+.content-img img {
+  width: 1110px;
+  height: 500px;
+  margin-bottom: 120px;
+}
+
+.txt-content img {
+  width: 635px;
+  height: 400px;
+}
+
+.nav-projetos img {
+  width: 8px;
+  height: 16px;
+}
+
+.manage {
+  margin-bottom: 25px;
+}
+
+.explicacao {
+  width: 350px;
+  height: 498px;
+}
+
+.projeto {
+  width: 635px;
+  height: 1110px;
+  margin-bottom: 55px;
+}
+
+.projeto img {
+  margin-bottom: 32px;
+}
+
+.manage .explicacao h1 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+  margin-bottom: 25px;
+}
+
+.manage .explicacao p {
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+.manage .explicacao span {
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #5FB4A2;
+
+  margin-bottom: 25px;
+}
+
+.projeto h3 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.285714px;
+  color: #33323D;
+  margin-bottom: 15px;
+}
+
+.projeto p {
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.txt-nav-bar {
+  margin-bottom: 95px;
+  text-align: center;
+}
+
+.txt-nav-bar h6 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.285714px;
+  color: #33323D;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.txt-nav-bar span {
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+/*font-family: 'Ibarra Real Nova', serif;
+font-family: 'Public Sans', sans-serif;

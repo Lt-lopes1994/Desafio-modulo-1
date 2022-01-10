@@ -1,0 +1,98 @@
+.txt {
+  width: 635px;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 500px;
+  margin-bottom: 100px;
+}
+
+.txt-entreEmContato {
+  border-top: 1px solid rgba(51, 50, 61, 0.15);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+  padding-top: 48px;
+  margin-bottom: 48px;
+}
+
+.logos-img {
+  margin-top: 70px;
+}
+
+.logos-img img {
+  margin-right: 15px;
+}
+
+.formulario {
+  width: 635px;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 600px;
+  margin-bottom: 90px;
+}
+
+.formulario p {
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+}
+
+.formulario .padrao {
+  all: unset;
+  background: rgba(51, 50, 61, 0.1);
+  color: #000000;
+  mix-blend-mode: normal;
+  width: 635px;
+  height: 48px;
+}
+
+.formulario .msg-txt {
+  all: unset;
+  color: #000000;
+  background: rgba(51, 50, 61, 0.1);
+  mix-blend-mode: normal;
+  width: 635px;
+  height: 96px;
+  margin-bottom: 24px;
+}
+
+.formulario button {
+  all: unset;
+  background: #203A4C;
+  color: #fff;
+  width: 200px;
+  height: 48px;
+  text-align: center;
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase
+}
+
+.formulario button:hover {
+  background: #5FB4A2;
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.formulario input:focus {
+  border: 2px solid black;
+}

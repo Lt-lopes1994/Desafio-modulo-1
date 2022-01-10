@@ -1,0 +1,70 @@
+.left {
+  margin-left: 125px;
+}
+
+.right {
+  margin-right: 125px;
+}
+
+.img {
+  width: 540px;
+  height: 500px;
+}
+
+.content {
+  width: 350px;
+  height: 500px;
+
+}
+
+.main {
+  margin-bottom: 80px;
+}
+
+.content h1 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.content p {
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 54px;
+  text-align: center;
+}
+
+.content a {
+  display: flex;
+  text-decoration: none;
+  width: 175px;
+  height: 48px;
+  border: 1px solid #33323D;
+  justify-content: center;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323D;
+}
+
+.content a:hover {
+  background: #33323D;
+  color: #FFF;
+}
